@@ -1,7 +1,7 @@
 import './globals.css';
 import { Metadata, Viewport } from 'next';
-import { ThemeProvider } from 'next-themes';
 import { Toaster } from "@/components/ui/sonner"
+import { ThemeProvider } from '../components/ui/theme-provider';
 
 const APP_NAME = "memos";
 const APP_DEFAULT_TITLE = "Memox";
